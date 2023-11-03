@@ -138,9 +138,9 @@ public class Main {
         float plat = (wantedSum * tax + wantedSum) / time;
 
         if (maxPay > plat) {
-            System.out.println("Максимальный платеж при ЗП " + salary + " равен " + maxPay + " рублей. Платеж по кредиту " + plat + " рублей. Одобрено");
+            System.out.println("Максимальный платеж при ЗП " + salary + " равен " + maxPay + " рублей. Платеж по кредиту " + plat + " рублей. Одобрено.");
         } else {
-            System.out.println("Максимальный платеж при ЗП " + salary + " равен " + maxPay + " рублей. Платеж по кредиту " + plat + " рублей. Отказано");
+            System.out.println("Максимальный платеж при ЗП " + salary + " равен " + maxPay + " рублей. Платеж по кредиту " + plat + " рублей. Отказано.");
         }
     }
 }
