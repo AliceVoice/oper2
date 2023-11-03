@@ -128,7 +128,7 @@ public class Main {
         if (age < 23) {
             tax = basicTax + 0.1f;
         } else if (age >= 23 && age < 30) {
-            tax = basicTax + 0.05f;
+            tax = basicTax + 0.005f;
         }
 
         if (salary > 80_000) {
